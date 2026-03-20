@@ -1,0 +1,22 @@
+PCA dimension and K sensitivity sweep
+total_samples=337
+birkin_samples=207
+not_birkin_samples=130
+train_samples=269
+test_samples=68
+image_size=64x64
+components_list=[12, 24, 48]
+k_list=[1, 3, 5]
+seed=42
+
+Results sorted by accuracy (best first):
+requested_components	used_components	k	accuracy	TN	FP	FN	TP
+12	12	1	0.9559	24	2	1	41
+12	12	3	0.9559	23	3	0	42
+24	24	1	0.9412	23	3	1	41
+12	12	5	0.9118	21	5	1	41
+24	24	3	0.9118	21	5	1	41
+24	24	5	0.8824	19	7	1	41
+48	48	1	0.8676	18	8	1	41
+48	48	3	0.7941	12	14	0	42
+48	48	5	0.7647	10	16	0	42

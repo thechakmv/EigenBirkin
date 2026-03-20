@@ -1,0 +1,23 @@
+Birkin classification pipeline (PCA eigenbags + KNN)
+total_samples=337
+birkin_samples=207
+not_birkin_samples=130
+train_samples=269
+test_samples=68
+image_size=64x64
+n_components=12
+k=3
+accuracy=0.9559
+
+Confusion matrix [[TN, FP], [FN, TP]]:
+[[23  3]
+ [ 0 42]]
+
+              precision    recall  f1-score   support
+
+  not_birkin     1.0000    0.8846    0.9388        26
+      birkin     0.9333    1.0000    0.9655        42
+
+    accuracy                         0.9559        68
+   macro avg     0.9667    0.9423    0.9521        68
+weighted avg     0.9588    0.9559    0.9553        68

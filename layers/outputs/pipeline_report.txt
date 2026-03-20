@@ -1,0 +1,104 @@
+
+
+================ CNN (NumPy layers) ================
+image_size=16x16
+train_samples=148
+test_samples=37
+max_samples_per_class=120
+best_hyperparameters=
+  learning_rate=0.01
+  batch_size=8
+  epochs=3
+  conv_channels=4
+test_accuracy=0.6486
+confusion_matrix=
+[[ 0 13]
+ [ 0 24]]
+classification_report=
+              precision    recall  f1-score   support
+
+  not_birkin     0.0000    0.0000    0.0000        13
+      birkin     0.6486    1.0000    0.7869        24
+
+    accuracy                         0.6486        37
+   macro avg     0.3243    0.5000    0.3934        37
+weighted avg     0.4207    0.6486    0.5104        37
+
+
+
+================ CNN (NumPy layers) ================
+image_size=16x16
+train_samples=148
+test_samples=37
+max_samples_per_class=120
+best_hyperparameters=
+  learning_rate=0.0005
+  batch_size=8
+  epochs=15
+  conv_channels=16
+test_accuracy=0.6486
+confusion_matrix=
+[[ 0 13]
+ [ 0 24]]
+classification_report=
+              precision    recall  f1-score   support
+
+  not_birkin     0.0000    0.0000    0.0000        13
+      birkin     0.6486    1.0000    0.7869        24
+
+    accuracy                         0.6486        37
+   macro avg     0.3243    0.5000    0.3934        37
+weighted avg     0.4207    0.6486    0.5104        37
+
+
+
+================ CNN (NumPy layers) ================
+image_size=16x16
+train_samples=148
+test_samples=37
+max_samples_per_class=120
+best_hyperparameters=
+  learning_rate=0.001
+  batch_size=8
+  epochs=15
+  conv_channels=8
+test_accuracy=0.6486
+confusion_matrix=
+[[ 0 13]
+ [ 0 24]]
+classification_report=
+              precision    recall  f1-score   support
+
+  not_birkin     0.0000    0.0000    0.0000        13
+      birkin     0.6486    1.0000    0.7869        24
+
+    accuracy                         0.6486        37
+   macro avg     0.3243    0.5000    0.3934        37
+weighted avg     0.4207    0.6486    0.5104        37
+
+
+
+================ CNN (NumPy layers) ================
+image_size=16x16
+train_samples=148
+test_samples=37
+max_samples_per_class=120
+best_hyperparameters=
+  learning_rate=0.001
+  batch_size=8
+  epochs=15
+  conv_channels=8
+test_accuracy=0.6486
+confusion_matrix=
+[[ 0 13]
+ [ 0 24]]
+classification_report=
+              precision    recall  f1-score   support
+
+  not_birkin     0.0000    0.0000    0.0000        13
+      birkin     0.6486    1.0000    0.7869        24
+
+    accuracy                         0.6486        37
+   macro avg     0.3243    0.5000    0.3934        37
+weighted avg     0.4207    0.6486    0.5104        37
+
